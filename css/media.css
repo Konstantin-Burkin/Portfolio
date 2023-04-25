@@ -1,0 +1,278 @@
+@media (min-width: 576px) {
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .header {
+    padding: 29px 0;
+  }
+
+  .header__container {
+    justify-content: center;
+  }
+
+  .header__mobile-menu-cont {
+    display: none;
+  }
+
+  .header__mobile-menu-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header__logo {
+    margin: 0 auto;
+    width: 94px;
+    height: 21px;
+  }
+
+  .header__nav {
+    display: block;
+  }
+
+  .section-hero {
+    padding-top: 77px;
+    padding-bottom: 136px;
+  }
+
+  .hero__title {
+    margin-bottom: 16px;
+    font-size: 3.125rem;
+    line-height: 1em;
+  }
+
+  .hero__descr {
+    max-width: 345px;
+    margin-bottom: 62px;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+  }
+
+  .hero__btn {
+    font-size: 1.125rem;
+    padding: 23px 76px;
+  }
+
+  .section__benefits {
+    padding-bottom: 55px;
+  }
+
+  .benefits-picture {
+    display: block;
+  }
+
+  .benefits__title {
+    margin-bottom: 18px;
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  .benefitns-item {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .benefitns-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .section__teachers {
+    padding-bottom: 77px;
+  }
+
+  .teachers__title {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    line-height: 0.7;
+  }
+
+  .courses__title {
+    font-size: 2.5rem;
+    line-height: .7;
+  }
+
+  .course__title {
+    max-width: none;
+    margin-bottom: 11px;
+    line-height: 1.2em;
+  }
+
+  .course__more-button {
+    padding: 19px 48px;
+  }
+
+  .footer__copyright {
+    line-height: 1.671em;
+  }
+}
+
+@media (min-width:689px) {
+
+
+  .header__container {
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 590px;
+  }
+
+  .header__logo {
+    display: block;
+  }
+
+  .header__nav {
+    width: auto;
+    margin-top: 0;
+    line-height: 21px;
+    font-size: 18px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 65px;
+  }
+
+  .section-hero {
+    padding-top: 129px;
+    padding-bottom: 136px;
+  }
+
+  .hero-container {
+    max-width: 629px;
+  }
+
+  .hero__descr {
+    margin-bottom: 64px;
+  }
+
+  .benefits-container {
+    max-width: 629px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    margin: 0;
+  }
+
+  .header__nav {
+    width: auto;
+    margin-top: 0;
+  }
+
+  .nav__list {
+    justify-content: flex-start;
+    gap: 56px;
+    margin: 0;
+  }
+
+  .section-hero {
+    padding-top: 0px;
+    padding-bottom: 2px;
+    background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #2E2B44 100%);
+    ;
+  }
+
+  .hero-container {
+    background: content-box no-repeat right 43%/330px;
+    background-image: url("../img/hero-bg.png");
+  }
+
+  .hero {
+    padding-top: 129px;
+    padding-bottom: 135px;
+  }
+
+  .hero-content {
+    max-width: 385px;
+  }
+
+  .hero__title {
+    margin-bottom: 16px;
+  }
+
+  .section__benefits {
+    padding-bottom: 77px;
+  }
+
+  .benefits__top-content {
+    align-items: center;
+  }
+
+  .course {
+    min-height: auto;
+  }
+
+  .course__title {
+    margin-bottom: 8px;
+    line-height: 1.5em;
+  }
+
+  .course__more-button {
+    padding: 19px 56px;
+    margin-top: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --secondary-color: #212133;
+  }
+
+  .section-hero {
+    background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+  }
+
+  .hero {
+    padding-bottom: 130px;
+  }
+
+  .hero-content {
+    max-width: 459px;
+  }
+
+  .hero__title {
+    margin-bottom: 28px;
+    font-size: 3.75rem;
+  }
+
+  .hero__descr {
+    max-width: none;
+  }
+
+  .hero-container {
+    background-image: url("../img/hero-bg.png");
+    background-size: auto 96%;
+  }
+
+  .section__benefits {
+    padding-bottom: 80px;
+  }
+
+  .benefits__info-content {
+    max-width: 615px;
+  }
+
+  .benefits__title {
+    max-width: 380px;
+  }
+
+  .benefitns-item {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .course::after {
+    right: 20px;
+  }
+
+  .course__more-button {
+    padding: 20px 59px;
+    margin-top: 45px;
+  }
+}
